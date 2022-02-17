@@ -1,0 +1,504 @@
+
+
+/* #wrap{
+    width: 100%;
+    min-width: 1200px;
+    overflow: hidden;
+    background-color:#F6F5EF;
+} */
+
+
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/* container */
+
+#container{
+    
+    background-color: #fff;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    
+}
+
+.container_in{
+    max-width: 1240px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+#container h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* board_write */
+
+.w_box{
+    width: 70%;
+    margin: 0 auto 20px auto;
+    border: 1px solid #ccc;
+    padding: 30px 30px 0 30px;
+    border-radius: 15px;
+}
+
+.w_title{
+
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+
+.w_title input{
+    font-family: 'Noto Sans KR', sans-serif;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 10px 0 20px 0;
+}
+
+.w_content{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+
+}
+
+.w_content textarea{
+    font-size: 15px;
+    padding-left: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+    outline: none;
+    resize: none;
+    border: none;
+    width: 100%;
+    height: 500px;
+}
+
+.w_content_file{
+    margin-left: 160px;
+}
+
+.w_content_file input{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.w_btn{
+    text-align:center;
+}
+
+.w_btn_cancle input, .w_btn_write input{ 
+    background-color: #555;
+    border: none;
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+/* board_list */
+.l_box{
+    text-align: center;
+}
+
+.l_b1_list{
+    margin-bottom: 30px;
+}
+
+.l_box .l_table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+
+
+.l_table th{
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+}
+
+
+
+.l_table td{
+    height: 30px;
+    padding: 10px 0;
+}
+
+.list_num{
+    width: 10%;
+    font-weight: bold;
+}
+
+.list_title{
+	padding-left: 10px;
+    width: 43%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.list_title a{
+	display:inline-block;
+	padding-left: 10px;
+	width: 100%;
+    color: #222;
+}
+
+.list_writer{
+    width: 15%;
+
+}
+
+.list_date{
+    width: 15%;
+}
+
+.list_hits{
+    width: 7%;
+}
+
+
+
+
+.write_btn{
+    margin-left: 1100px;
+    display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #555;
+    border: 1px solid #eee;
+    color: #fff;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+.l_b2_search{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.l_b2_search select{
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 31px;
+    border: 1px solid #bbb;
+}
+
+.l_b2_search .s_sc{
+    
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 300px;
+    height: 30px;
+    margin: 0 10px;
+    padding-left: 7px;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+}
+
+.l_b2_search .s_btn{
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 31px;
+    width: 60px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 1px;
+}
+
+.l_b3_pager ul{
+    display: flex;
+    justify-content: center;
+}
+
+.l_b3_pager li{
+    margin: 5px;
+}
+
+.l_b3_pager a{
+    color: #222;
+    font-size: 15px;
+}
+
+/* list - paging */
+.active{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+/* board_detail */
+
+.board_detail .d_box{
+    position: relative;
+}
+
+.board_detail .d_title{
+	display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    padding: 35px 0;
+    margin-bottom: 30px;
+    
+}
+
+.d_title_name{
+    font-weight: 500;
+    font-size: 24px;
+    line-height:26px;
+    width: 60%;
+}
+
+
+.d_title ul{
+	width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    font-size: 16px;
+	align-items: center;
+    color: #555;
+}
+
+.d_title ul li:after{
+	display:inline-block;
+	background-color: #bbb;
+	vertical-align: top;
+	content: "";
+	width: 1px;
+	height: 14px;
+	margin: 4px 8px 0 8px;
+}
+
+.d_title ul li:last-child:after{
+	display: none;
+}
+
+
+
+
+
+
+
+
+.board_detail .d_content{
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.d_btns{
+    margin: 15px 0 40px 0;
+}
+
+.d_btns ul{
+    display: flex;
+    justify-content: right;
+    
+}
+
+.d_btns li{
+    margin-left: 10px;
+}
+
+
+
+
+.d_list_btn a, .d_write_btn a, .d_del_btn a{
+    box-sizing: border-box;
+    background-color: #555;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
+    width: 70px;
+    height: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.detail_view_wrap table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    line-height: 40px;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    font-size: 15px;
+}
+
+.dvw_up{
+    border-bottom: 1px solid #ccc;
+    padding: 100px
+}
+
+th{
+    text-align: left;
+    background-color: rgb(245, 245, 245);
+    padding: 5px 0 5px 20px;
+}
+
+
+.dvw_up td a, .dvw_down td a{
+    color: #222;
+    padding-left: 20px;
+}
+
+/* detail - 업로드된 이미지 파일 크기 조정 */
+.board_detail #uploadResult ul img{
+	width: 500px;
+	height: auto;
+}
+
+
+/* board - reply */
+
+
+.field{
+    display: flex;
+}
+
+.field input{
+    font-family: 'Noto Sans KR', sans-serif;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    width: 202px;
+    padding: 10px;
+}
+
+.field_writer{
+    border-left: none;
+}
+
+
+.d_reply{
+    padding-bottom: 60px;
+    
+    border-bottom: 1px solid #ccc;
+}
+
+.d_reply h2{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+
+
+.d_reply_form{
+    width: 100%;
+    position: relative;
+}
+
+
+.d_reply_form textarea{
+    font-family: 'Noto Sans KR', sans-serif;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 98%;
+    height: 130px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.d_reply_submit{
+    position: absolute;
+    right: 2px;
+    margin-bottom: 20px;
+}
+
+.d_reply_submit input{
+    width: 70px;
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* detail - replyList */
+
+.relist_box{
+    padding: 0 0 25px 0;
+    font-size: 16px;
+}
+
+.relist_box li{
+    padding: 25px 0 25px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.relist_box li div{
+    margin-top: 10px;
+}
+
+
+
+.r_btns ul{
+	display: flex;
+	justify-content: left;
+}
+
+.r_btns ul li{
+	border: none;
+	padding: 0;
+}
+
+.r_delete_btn{
+	margin-right: 5px;
+}
+
+
+.r_modify_btn, .r_delete_btn, .r_submit_btn{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 13px;
+	text-align: center;
+    box-sizing: border-box;
+    background-color: #555;
+    border-radius: 3px;
+    display: block;
+    line-height: 30px;
+    width: 50px;
+    height: 30px;
+    color: #fff;
+    border: none;
+} 
+
+.detail_rno{
+	font-family: 'Noto Sans KR', sans-serif;
+	border: none;
+}
+
+#content{
+	resize: none;
+	font-family: 'Noto Sans KR', sans-serif;
+	border: none;
+	/*border: 1px solid #ccc;*/ 
+}
+
+.detail_replydate{
+	margin-top: 1px;
+	margin-left: 10px;
+	border: none;
+	color: #555;
+}
+
+
+
+
+
